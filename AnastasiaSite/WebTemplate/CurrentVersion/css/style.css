@@ -48,6 +48,10 @@ Table of Content:
   cursor: pointer;
 }
 
+.divPortfolio{
+  display: flex;
+}
+
 .list {
   list-style: none;
   margin: 0px;

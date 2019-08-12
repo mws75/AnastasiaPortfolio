@@ -1,16 +1,5 @@
-@media (max-width:1619px){
-	/* Main Menu Area css
-	============================================================================================ */
-   .header_area .navbar .search {
-		margin-left: 40px;
-	}
-	/* End Main Menu Area css
-	============================================================================================ */
-	.banner_area .box_1620 {
-		border-radius: 0px;
-	}
-}
-@media (max-width:1300px){
+
+@media (max-width: 2400px){
 	.testimonials_area .owl-prev, .testimonials_area .owl-next {
 		right: auto;
 		left: 50%;
@@ -24,6 +13,11 @@
 	.testimonials_area .owl-next{
 		transform: rotate(90deg);
 		margin-left: -40px;
+	}
+
+	.home_banner_area .banner_inner .banner_content .media .d-flex img {
+		width: 100%;
+		height: 100%;
 	}
 }
 @media (max-width:1199px){
@@ -47,13 +41,18 @@
 		left: auto;
 		right: 0px;
 	}
+
+	.home_banner_area .banner_inner .banner_content .media .d-flex img {
+		width: 100%;
+		height: 100%;
+	}
 	/* End Home Banner Area css
 	============================================================================================ */
 	.banner_content .media{
 		display: block;
 	}
 	.home_banner_area .banner_content{
-		max-width: 500px;
+		max-width: 750px;
 		margin: auto;
 	}
 	.home_banner_area .banner_inner .banner_content .media .d-flex {
