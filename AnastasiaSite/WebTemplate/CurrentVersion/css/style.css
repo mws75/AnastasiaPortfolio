@@ -445,31 +445,7 @@ button:focus {
 /*----------------------------------------------------*/
 /* Latest Blog Area css
 ============================================================================================ */
-.latest_blog_inner {
-  margin-bottom: -30px; }
 
-.l_blog_item {
-  margin-bottom: 30px; }
-  .l_blog_item .date {
-    font-size: 13px;
-    font-family: "Roboto", sans-serif;
-    font-weight: normal;
-    color: #777777;
-    margin-top: 20px;
-    display: block;
-    margin-bottom: 15px; }
-  .l_blog_item h4 {
-    font-size: 18px;
-    line-height: 24px;
-    color: #222222;
-    border-bottom: 1px solid #eeeeee;
-    padding-bottom: 20px;
-    margin-bottom: 20px;
-    transition: all 300ms linear 0s; }
-  .l_blog_item p {
-    margin-bottom: 0px; }
-  .l_blog_item:hover h4 {
-    color: rgb(124,168,137); }
 
 /* End Latest Blog Area css
 ============================================================================================ */
