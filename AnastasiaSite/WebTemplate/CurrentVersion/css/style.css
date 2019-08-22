@@ -346,46 +346,7 @@ button:focus {
         vertical-align: middle;
         align-self: center; }
 
-.blog_banner {
-  min-height: 780px;
-  position: relative;
-  z-index: 1;
-  overflow: hidden;
-  margin-bottom: 0px; }
-  .blog_banner .banner_inner {
-    background: #04091e;
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    min-height: 780px;
-    z-index: 1; }
-    .blog_banner .banner_inner .overlay {
-      background: url(../img/banner/banner-2.jpg) no-repeat scroll center center;
-      opacity: .5;
-      height: 125%;
-      position: absolute;
-      left: 0px;
-      top: 0px;
-      width: 100%;
-      z-index: -1; }
-    .blog_banner .banner_inner .blog_b_text {
-      max-width: 700px;
-      margin: auto;
-      color: #fff; }
-      .blog_banner .banner_inner .blog_b_text h2 {
-        font-size: 60px;
-        font-weight: bold;
-        font-family: "Heebo", sans-serif;
-        line-height: 66px;
-        margin-bottom: 15px;
-        text-transform: uppercase; }
-      .blog_banner .banner_inner .blog_b_text p {
-        font-size: 16px;
-        margin-bottom: 35px; }
-      .blog_banner .banner_inner .blog_b_text .white_bg_btn {
-        line-height: 42px;
-        padding: 0px 45px;
-        border-radius: 5px; }
+
 
 .banner_box {
   max-width: 1620px;
@@ -438,6 +399,33 @@ button:focus {
           display: none; }
       .banner_area .banner_inner .banner_content .page_link a:hover {
         color: rgb(124,168,137) }
+
+/* Services Page
+=================================================================================*/
+.feature_item_banner{
+   display: table;
+}
+
+/* .feature_item_banner_left{
+  
+  width: 25%;
+  float: left;
+  padding: 5px;
+} */
+
+.feature_item_banner_img{
+  width:200px;
+  margin: 10px;
+  float: left;
+  padding: 5px 20px 5px 5px;
+}
+
+
+
+
+
+
+
 
 /* End Home Banner Area css
 ============================================================================================ */
