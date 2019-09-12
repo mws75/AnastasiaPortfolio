@@ -48,7 +48,12 @@ Table of Content:
   cursor: pointer;
 }
 
+/* So that the boxes of this class are the size of the largest one.*/
 .divPortfolio{
+  display: flex;
+}
+
+.divServices{
   display: flex;
 }
 
@@ -498,19 +503,19 @@ button:focus {
 }
 
 /* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
+.fader {
+  -webkit-animation-name: fader;
   -webkit-animation-duration: 1.5s;
-  animation-name: fade;
+  animation-name: fader;
   animation-duration: 1.5s;
 }
 
-@-webkit-keyframes fade {
+@-webkit-keyframes fader {
   from {opacity: .4} 
   to {opacity: 1}
 }
 
-@keyframes fade {
+@keyframes fader {
   from {opacity: .4} 
   to {opacity: 1}
 }
